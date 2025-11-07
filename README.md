@@ -52,8 +52,8 @@ Projeto full stack, baseado na prova do SAEP de 2023, que simula o sistema de um
 
  ### 🚀 Funcionalidades Principais
 
-✅ Cadastro, listagem, edição e exclusão de veículos
-✅ Gerenciamento de clientes e lojas
-✅ Registro e consulta de vendas
-✅ Interface web simples e responsiva
-✅ Integração com API RESTful (Express + Prisma)
+-  Cadastro, listagem, edição e exclusão de veículos
+- Gerenciamento de clientes e lojas
+- Registro e consulta de vendas
+-  Interface web simples e responsiva
+- Integração com API RESTful (Express + Prisma)
