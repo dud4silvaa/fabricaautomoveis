@@ -22,29 +22,27 @@ Projeto full stack, baseado na prova do SAEP de 2023, que simula o sistema de um
 
 ## ⚙️ Configuração do Ambiente
 
-### 1️⃣ Clone o repositório 
-### 2️⃣ Instale as dependências da API
+### 1️⃣  Instale as dependências da API
     cd api
     npm install
-
-### 3️⃣ Configure o banco de dados
+### 2️⃣Configure o banco de dados
   -Abra o XAMPP e inicie o Apache e o MySQL.
   -Crie o banco de dados fabrica2025 no phpMyAdmin.
 
-### 4️⃣ Crie o arquivo .env
+### 3️⃣  Crie o arquivo .env
   -Na pasta /api, crie o arquivo .env com o seguinte conteúdo:
   DATABASE_URL="mysql://root@localhost:3306/fabrica2025"
 
-### 5️⃣ Execute a migração do banco de dados
+### 4️⃣  Execute a migração do banco de dados
    npx prisma migrate dev --name init
 
-### 6️⃣ Inicie o servidor da API
+### 5️⃣ Inicie o servidor da API
     npm run dev
 
-A API estará rodando em:
-👉 http://localhost:3000
+  A API estará rodando em:
+  👉 http://localhost:3000
 
-### 7️⃣Rode o front-end
+### 6️⃣ Rode o front-end
 
  -Abra a pasta /web no Visual Studio Code.
 
